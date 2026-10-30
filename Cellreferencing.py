@@ -101,3 +101,34 @@
 #     i+=1
 # print(num,txt)
 
+goods=['good','good','bad','good','bad','bad','good']
+for i in goods:
+    if i == 'bad':
+        continue
+    print(i)
+
+
+ 
+while True:
+    print('we are learning infinte loop')
+    break
+
+
+
+names=input('enter your name: ')
+list=[]
+while names != 'stop':
+    list.append(names)
+    names=input('enter your name: ')
+
+print(list)
+
+
+
+user=input('enter your username: ')
+user_list=[]
+while user != 'q':
+    user_list.append(user)
+    user=input('enter your username: ')
+
+print(user_list)
